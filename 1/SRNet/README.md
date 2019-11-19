@@ -1,1 +1,3 @@
+# Introduction
+  SRNet is a steanalyisis method using deep learning, main function is in SRNet_Example, it train a model and then do the test. What you need to do is to enter the path of the image (Cover and Stego directories for training and validation. For the spatial domain put cover and stego images in their corresponding direcotries. For the JPEG domain, decompress images to the spatial domain without rounding to integers and save them as '.mat' files with variable name "im". Put the '.mat' files in thier corresponding directoroies. Make sure all mat files in the directories can be loaded in Python without any errors.)and change the parameter.After a classifier has been trained,enter the path of the testing set and get the corresponding results.
 
